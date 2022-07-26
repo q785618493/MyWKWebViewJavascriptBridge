@@ -19,7 +19,7 @@ MyWKWebViewJavascriptBridge is available through [CocoaPods](https://cocoapods.o
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MyWKWebViewJavascriptBridge'
+pod 'MyWKWebViewJavascriptBridge', :git => 'https://github.com/q785618493/MyWKWebViewJavascriptBridge.git'
 ```
 
 ## Author
