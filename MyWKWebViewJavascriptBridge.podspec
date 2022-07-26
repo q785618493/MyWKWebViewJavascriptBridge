@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyWKWebViewJavascriptBridge'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MyWKWebViewJavascriptBridge.'
+  s.version          = '1.0.0'
+  s.summary          = 'An iOS/OSX bridge for sending messages between Obj-C and JavaScript in WKWebViews.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,5 +38,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+  
+  # 依赖第三方库等等
   # s.dependency 'AFNetworking', '~> 2.3'
 end

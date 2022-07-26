@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MyWKWebViewJavascriptBridge (1.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MyWKWebViewJavascriptBridge (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MyWKWebViewJavascriptBridge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MyWKWebViewJavascriptBridge: 32c3a8280cf37f32f5e033058604e718331a302e
+
+PODFILE CHECKSUM: 693de87e1aa3f4b2b383c95d533fcb01637bc1dc
+
+COCOAPODS: 1.11.3

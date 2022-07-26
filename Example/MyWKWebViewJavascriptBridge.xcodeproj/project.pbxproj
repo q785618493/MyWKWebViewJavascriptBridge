@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0453DFAF288F97F4009B6550 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 0453DFAE288F97F4009B6550 /* ExampleApp.html */; };
 		23006BA7314CBD5928DFB7FF /* Pods_MyWKWebViewJavascriptBridge_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59205265B21E121D92763FD5 /* Pods_MyWKWebViewJavascriptBridge_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0453DFAE288F97F4009B6550 /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
 		1CAC45DFAF8488C75369FBAC /* Pods-MyWKWebViewJavascriptBridge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWKWebViewJavascriptBridge_Example.release.xcconfig"; path = "Target Support Files/Pods-MyWKWebViewJavascriptBridge_Example/Pods-MyWKWebViewJavascriptBridge_Example.release.xcconfig"; sourceTree = "<group>"; };
 		54A6AEAFED3BF9F1E4BE2C16 /* Pods-MyWKWebViewJavascriptBridge_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWKWebViewJavascriptBridge_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyWKWebViewJavascriptBridge_Tests/Pods-MyWKWebViewJavascriptBridge_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		59205265B21E121D92763FD5 /* Pods_MyWKWebViewJavascriptBridge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWKWebViewJavascriptBridge_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,10 +65,10 @@
 		6E02EB84FA7861034E023547 /* Pods-MyWKWebViewJavascriptBridge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWKWebViewJavascriptBridge_Example.debug.xcconfig"; path = "Target Support Files/Pods-MyWKWebViewJavascriptBridge_Example/Pods-MyWKWebViewJavascriptBridge_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B314E26F775EF2E5039B9B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8B314E26F775EF2E5039B9B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A8F429008293D802A8C5C7FE /* Pods-MyWKWebViewJavascriptBridge_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWKWebViewJavascriptBridge_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyWKWebViewJavascriptBridge_Tests/Pods-MyWKWebViewJavascriptBridge_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B3920F3478F8696B119B11CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FF81A094096B0074C18193BC /* MyWKWebViewJavascriptBridge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyWKWebViewJavascriptBridge.podspec; path = ../MyWKWebViewJavascriptBridge.podspec; sourceTree = "<group>"; };
+		B3920F3478F8696B119B11CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FF81A094096B0074C18193BC /* MyWKWebViewJavascriptBridge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyWKWebViewJavascriptBridge.podspec; path = ../MyWKWebViewJavascriptBridge.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				6003F59C195388D20070C39A /* MYAppDelegate.h */,
 				6003F59D195388D20070C39A /* MYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				0453DFAE288F97F4009B6550 /* ExampleApp.html */,
 				6003F5A5195388D20070C39A /* MYViewController.h */,
 				6003F5A6195388D20070C39A /* MYViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -193,7 +196,6 @@
 				54A6AEAFED3BF9F1E4BE2C16 /* Pods-MyWKWebViewJavascriptBridge_Tests.debug.xcconfig */,
 				A8F429008293D802A8C5C7FE /* Pods-MyWKWebViewJavascriptBridge_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +251,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = q785618493;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 75L84BV98K;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +264,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -278,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0453DFAF288F97F4009B6550 /* ExampleApp.html in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -513,11 +520,13 @@
 			baseConfigurationReference = 6E02EB84FA7861034E023547 /* Pods-MyWKWebViewJavascriptBridge_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75L84BV98K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyWKWebViewJavascriptBridge/MyWKWebViewJavascriptBridge-Prefix.pch";
 				INFOPLIST_FILE = "MyWKWebViewJavascriptBridge/MyWKWebViewJavascriptBridge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gansudailyoo.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -529,11 +538,13 @@
 			baseConfigurationReference = 1CAC45DFAF8488C75369FBAC /* Pods-MyWKWebViewJavascriptBridge_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75L84BV98K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyWKWebViewJavascriptBridge/MyWKWebViewJavascriptBridge-Prefix.pch";
 				INFOPLIST_FILE = "MyWKWebViewJavascriptBridge/MyWKWebViewJavascriptBridge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gansudailyoo.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
