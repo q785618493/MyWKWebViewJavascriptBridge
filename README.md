@@ -1,5 +1,7 @@
 # MyWKWebViewJavascriptBridge
 
+An iOS/OSX bridge for sending messages between Obj-C and JavaScript in WKWebViews.
+
 [![CI Status](https://img.shields.io/travis/q785618493/MyWKWebViewJavascriptBridge.svg?style=flat)](https://travis-ci.org/q785618493/MyWKWebViewJavascriptBridge)
 [![Version](https://img.shields.io/cocoapods/v/MyWKWebViewJavascriptBridge.svg?style=flat)](https://cocoapods.org/pods/MyWKWebViewJavascriptBridge)
 [![License](https://img.shields.io/cocoapods/l/MyWKWebViewJavascriptBridge.svg?style=flat)](https://cocoapods.org/pods/MyWKWebViewJavascriptBridge)
