@@ -9,7 +9,7 @@ An iOS/OSX bridge for sending messages between Obj-C and JavaScript in WKWebView
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+  An iOS/OSX bridge for sending messages between Obj-C and JavaScript in WKWebViews.
 
 ## Requirements
 
